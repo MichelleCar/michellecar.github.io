@@ -1,0 +1,43 @@
+/* Set the background for the page  */
+#bacteria-background {
+    background-image: url('https://worldmicrobiomeday.com/wp-content/uploads/2020/05/microbial-diversity.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Format the page title*/
+#text {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Format the spacing and placement of the page elements */
+#grid {
+    display: grid;
+    height: 50px;
+    width: 1000px;
+    grid-template-columns: 500px;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Format demographic info */
+#demographic {
+    width: 400px;
+}
+
+/* Format test subject box */
+#test {
+    width: 500px;
+}

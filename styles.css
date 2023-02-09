@@ -7,12 +7,14 @@
     position: relative;
 }
 
+
 /* Format the page title*/
 #text {
     font-family: "Gill Sans", sans-serif;
     font-weight: bold;
     font-size: large;
 }
+
 
 /* Format the spacing and placement of the page elements */
 #grid {
@@ -32,10 +34,12 @@
     -ms-transform: translate(-50%, -50%);
 }
 
+
 /* Format demographic info */
 #demographic {
     width: 400px;
 }
+
 
 /* Format test subject box */
 #test {
